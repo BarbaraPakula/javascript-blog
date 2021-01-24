@@ -2,8 +2,9 @@
 
 /* Variables */
 
-$color-light: #fff;
-$color-dark: #444;
+$color-light:#F5F5F5;
+$color-dark: #708090;
+$color-logo: #2F4F4F;
 
 $font-logo: 'Sacramento',
 cursive;
@@ -12,14 +13,36 @@ sans-serif;
 $font-text: 'Source Sans Pro',
 sans-serif;
 
-$tag-size1:10px;
-$tag-size2:20px;
-$tag-size3:30px;
-$tag-size4:40px;
-$tag-size5:50px;
+$tag-size1:100%;
+$tag-size2:125%;
+$tag-size3:150%;
+$tag-size4:175%;
+$tag-size5:200%;
 
-#tag-size1 {
+.tag-size-1 {
   font-size: $tag-size1;
+  color: $color-logo;
+  margin: 15px;
+}
+
+.tag-size-2 {
+  font-size: $tag-size2;
+  color: $color-logo;
+}
+
+.tag-size-3 {
+  font-size: $tag-size3;
+  color: $color-logo;
+}
+
+.tag-size-4 {
+  font-size: $tag-size4;
+  color: $color-logo;
+}
+
+.tag-size-5 {
+  font-size: $tag-size5;
+  color: $color-logo;
 }
 
 /* Global */
@@ -89,6 +112,7 @@ body {
   font-size: 104px;
   line-height: 1;
   text-align: center;
+  color: $color-logo;
 }
 
 /* Lists */
@@ -124,6 +148,7 @@ body {
 
   &.active {
     display: block;
+
   }
 }
 
@@ -137,4 +162,17 @@ body {
   p {
     margin: 0 10px 0 0;
   }
+}
+
+ul.list.list-horizontal {
+  font-style: italic;
+  ;
+
+  a {
+    margin-left: 10px;
+  }
+}
+
+ul.list.authors a {
+  color: $color-logo;
 }

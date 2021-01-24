@@ -1,5 +1,31 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,600|Sacramento|Source+Sans+Pro:300&subset=latin-ext");
 /* Variables */
+.tag-size-1 {
+  font-size: 100%;
+  color: #2F4F4F;
+  margin: 15px;
+}
+
+.tag-size-2 {
+  font-size: 125%;
+  color: #2F4F4F;
+}
+
+.tag-size-3 {
+  font-size: 150%;
+  color: #2F4F4F;
+}
+
+.tag-size-4 {
+  font-size: 175%;
+  color: #2F4F4F;
+}
+
+.tag-size-5 {
+  font-size: 200%;
+  color: #2F4F4F;
+}
+
 /* Global */
 *,
 *::before,
@@ -8,9 +34,9 @@
 }
 
 body {
-  background: #fff;
+  background: #F5F5F5;
   font-family: "Source Sans Pro", sans-serif;
-  color: #444;
+  color: #708090;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
@@ -31,7 +57,7 @@ body {
 .section-title span {
   text-transform: none;
   font-weight: 400;
-  color: #777777;
+  color: #a9b3bd;
 }
 
 /* Layout */
@@ -53,10 +79,10 @@ body {
 
 .sidebar,
 .posts {
-  background: #fff;
+  background: #F5F5F5;
   margin-right: 10px;
   padding: 40px;
-  border: 1px solid #444;
+  border: 1px solid #708090;
   border-radius: 5px;
 }
 
@@ -67,6 +93,7 @@ body {
   font-size: 104px;
   line-height: 1;
   text-align: center;
+  color: #2F4F4F;
 }
 
 /* Lists */
@@ -109,5 +136,17 @@ body {
 
 .post-tags p {
   margin: 0 10px 0 0;
+}
+
+ul.list.list-horizontal {
+  font-style: italic;
+}
+
+ul.list.list-horizontal a {
+  margin-left: 10px;
+}
+
+ul.list.authors a {
+  color: #2F4F4F;
 }
 /*# sourceMappingURL=style.css.map */
