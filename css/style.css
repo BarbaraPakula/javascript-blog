@@ -149,4 +149,8 @@ ul.list.list-horizontal a {
 ul.list.authors a {
   color: #2F4F4F;
 }
+
+aside:nth-of-type(2) {
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
